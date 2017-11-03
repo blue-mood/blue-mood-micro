@@ -4,7 +4,7 @@ This is a port of [emacs's Blue Mood theme](https://emacsthemes.com/themes/blue-
 
 ## Notes
 
-This theme requires a terminal emulator that supports true color<sup>[1](#myfootnote1)</sup> and micro's true color mode to be enabled for it to look the intended way (the background color for example appears with a radically different color without true color). To enable true color for micro, write "export MICRO_TRUECOLOR=1" in your shell config file (e.g. .bashrc,.zshrc e.t.c).
+This theme requires a terminal emulator that supports true color<sup>[1](#myfootnote1)</sup> and micro's true color mode to be enabled for it to look the intended way (the background color for example appears with a radically different color without true color). To enable true color for micro, write `export MICRO_TRUECOLOR=1` in your shell config file (e.g. .bashrc,.zshrc e.t.c).
 Keep in mind that this port doesn't correspond 100% to the original emacs theme, due to the differences of micro's theming system in comparison to emacs's theming system.
 
 ## Installation
