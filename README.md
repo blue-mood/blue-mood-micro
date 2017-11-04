@@ -14,7 +14,7 @@ Keep in mind that this port doesn't correspond 100% to the original emacs theme,
 This theme is available as third-party plugin repository.
 
 1. Add to your settings.json file (at `~/.config/micro` or `~/micro`), between the pluginrepos brackets, the following: `https://raw.githubusercontent.com/lmintmate/blue-mood-micro/master/repo.json`. The end result should look something like:
-`"pluginrepos": [https://raw.githubusercontent.com/lmintmate/blue-mood-micro/master/repo.json],`
+`"pluginrepos": ["https://raw.githubusercontent.com/lmintmate/blue-mood-micro/master/repo.json"],`
 2. Start up micro (or restart it if it was open when the settings were modified)
 3. Enter the command mode (with CtrlE) and write `plugin install bluemood-tc`. Look at `>help commands` for further plugin management commands (e.g. update, remove e.t.c).
 4. To enable the theme write `set colorscheme bluemood-tc`
