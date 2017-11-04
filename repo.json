@@ -1,0 +1,14 @@
+[{
+  "Name": "bluemood-tc",
+  "Description": "A port of emacs Blue Mood theme for the micro text editor",
+  "Tags": ["colorscheme", "colorschemes", "blue", "theme", "themes"],
+  "Versions": [
+    {
+      "Version": "1.0.0",
+      "Url": "https://github.com/lmintmate/blue-mood-micro/archive/1.0.0.zip",
+      "Require": {
+        "micro": ">=1.1.3"
+      }
+    }
+  ]
+}]
