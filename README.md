@@ -11,7 +11,7 @@ Keep in mind that this port doesn't correspond 100% to the original emacs theme,
 
 ### Automatic
 
-This theme is available as third-party plugin repository. The automatic installation requires however the nightly version for the moment in order to work properly.
+This theme is available as a third-party plugin repository.
 
 1. Add to your settings.json file (at `~/.config/micro` or `~/micro`), between the pluginrepos brackets, the following: `https://raw.githubusercontent.com/lmintmate/blue-mood-micro/master/repo.json`. The end result should look something like:
 `"pluginrepos": ["https://raw.githubusercontent.com/lmintmate/blue-mood-micro/master/repo.json"],`
@@ -27,6 +27,6 @@ This theme is available as third-party plugin repository. The automatic installa
 
 ### Tested on...
 
-micro 1.3.4-72 nightly (automatic install) and micro 1.3.3 (manual install) on MATE terminal 1.18.1 on Linux Mint MATE 18.2 with XML, html, css, scheme (scm), python, markdown, orgmode, plain text, java, javascript, coffeescript, json, php and Go files.
+micro 1.3.4 on MATE terminal 1.18.1 on Linux Mint MATE 18.2 with XML, html, css, scheme (scm), python, markdown, orgmode, plain text, java, javascript, coffeescript, json, php and Go files.
 
 <a name="myfootnote1">1</a>: To check whether your terminal supports true color, paste the following on it and press enter: `printf "\x1b[38;2;255;100;0mTRUECOLOR\x1b[0m\n"`. If TRUECOLOR in orange letters shows up, true color is supported indeed (from [this gist](https://gist.github.com/XVilka/8346728), which also includes other tips for true color support in the terminal).
