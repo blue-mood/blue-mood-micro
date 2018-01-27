@@ -27,6 +27,6 @@ This theme is available as a third-party plugin repository.
 
 ### Tested on...
 
-micro 1.3.4 on MATE terminal 1.18.1 on Linux Mint MATE 18.2 with XML, html, css, scheme (scm), python, markdown, orgmode, plain text, java, javascript, coffeescript, json, php and Go files.
+micro 1.4.0 on MATE terminal 1.18.2 on Linux Mint MATE 18.3 with XML, html, css, scheme (scm), python, markdown, orgmode, plain text, java, javascript, coffeescript, json, php and Go files.
 
 <a name="myfootnote1">1</a>: To check whether your terminal supports true color, paste the following on it and press enter: `printf "\x1b[38;2;255;100;0mTRUECOLOR\x1b[0m\n"`. If TRUECOLOR in orange letters shows up, true color is supported indeed (from [this gist](https://gist.github.com/XVilka/8346728), which also includes other tips for true color support in the terminal).
