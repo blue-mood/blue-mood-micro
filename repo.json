@@ -4,8 +4,8 @@
   "Tags": ["colorscheme", "colorschemes", "blue", "theme", "themes"],
   "Versions": [
     {
-      "Version": "1.0.3",
-      "Url": "https://github.com/lmintmate/blue-mood-micro/archive/1.0.3.zip",
+      "Version": "1.0.4",
+      "Url": "https://github.com/lmintmate/blue-mood-micro/archive/1.0.4.zip",
       "Require": {
         "micro": ">=1.1.3"
       }
