@@ -2,6 +2,8 @@
 
 This is a port of [emacs's Blue Mood theme](https://emacsthemes.com/themes/blue-mood-theme.html) for the [micro](https://micro-editor.github.io/) text editor.
 
+![Screenshot](screenshot.png)
+
 ## Notes
 
 This theme requires a terminal emulator that supports true color<sup>[1](#myfootnote1)</sup> and micro's true color mode to be enabled for it to look the intended way (the background color for example appears with a radically different color without true color). To enable true color for micro, write `export MICRO_TRUECOLOR=1` in your shell config file (e.g. .bashrc,.zshrc e.t.c).
@@ -27,6 +29,6 @@ This theme is available as a third-party plugin repository.
 
 ### Tested on...
 
-micro 1.4.0 on MATE terminal 1.18.2 on Linux Mint MATE 18.3 with XML, html, css, scheme (scm), python, markdown, orgmode, plain text, java, javascript, coffeescript, json, php and Go files.
+micro 1.4.1 on MATE terminal 1.18.2 on Linux Mint MATE 18.3 with XML, html, css, scheme (scm), python, markdown, orgmode, plain text, java, javascript, coffeescript, json, php and Go files.
 
 <a name="myfootnote1">1</a>: To check whether your terminal supports true color, paste the following on it and press enter: `printf "\x1b[38;2;255;100;0mTRUECOLOR\x1b[0m\n"`. If TRUECOLOR in orange letters shows up, true color is supported indeed (from [this gist](https://gist.github.com/XVilka/8346728), which also includes other tips for true color support in the terminal).
