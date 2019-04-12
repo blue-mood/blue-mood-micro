@@ -2,7 +2,7 @@
 
 This is a port of [emacs's Blue Mood theme](https://emacsthemes.com/themes/blue-mood-theme.html) for the [micro](https://micro-editor.github.io/) text editor.
 
-![Screenshot](screenshot.png)
+![Screenshot](https://raw.githubusercontent.com/blue-mood/blue-mood-everything/master/screenshots/micro-screenshot.png)
 
 ## Notes
 
