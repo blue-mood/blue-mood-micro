@@ -11,24 +11,10 @@ Keep in mind that this port doesn't correspond 100% to the original emacs theme,
 
 ## Installation & Activation
 
-### Automatic
-
-This theme is available as a third-party plugin repository.
-
-1. Add to your settings.json file (at `~/.config/micro` or `~/micro`), between the pluginrepos brackets, the following: `https://raw.githubusercontent.com/lmintmate/blue-mood-micro/master/repo.json`. The end result should look something like:
-`"pluginrepos": ["https://raw.githubusercontent.com/lmintmate/blue-mood-micro/master/repo.json"],`
-2. Start up micro (or restart it if it was open when the settings were modified)
-3. Enter the command mode (with CtrlE) and write `plugin install bluemood-tc`. Look at `>help commands` for further plugin management commands (e.g. update, remove e.t.c).
-4. To enable the theme write `set colorscheme bluemood-tc`
-
 ### Manual
 
 1. Copy the bluemood-tc.micro file to the colorschemes directory: `~/.config/micro/colorschemes` (if the folder doesn't exist, create it) or `~/micro/colorschemes` .
 2. Start up micro (or restart it if it was open when the file was copied over)
 3. Enter the command mode (with CtrlE) and write `set colorscheme bluemood-tc`.
-
-### Tested on...
-
-micro 1.4.1 on MATE terminal 1.18.2 on Linux Mint MATE 18.3 with XML, html, css, scheme (scm), python, markdown, orgmode, plain text, java, javascript, coffeescript, json, php and Go files.
 
 <a name="myfootnote1">1</a>: To check whether your terminal supports true color, paste the following on it and press enter: `printf "\x1b[38;2;255;100;0mTRUECOLOR\x1b[0m\n"`. If TRUECOLOR in orange letters shows up, true color is supported indeed (from [this gist](https://gist.github.com/XVilka/8346728), which also includes other tips for true color support in the terminal).
